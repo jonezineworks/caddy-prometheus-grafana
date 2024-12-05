@@ -6,5 +6,5 @@
 }
 
 :8888 {
-	reverse_proxy :1880
+	reverse_proxy :3443
 }
