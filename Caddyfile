@@ -1,0 +1,6 @@
+:8888 {
+    reverse_proxy * localhost:3443
+
+    # Metrics
+    prometheus
+}
