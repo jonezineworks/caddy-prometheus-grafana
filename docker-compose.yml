@@ -5,7 +5,7 @@ services:
     image: caddy:latest
     container_name: caddy
     ports:
-      - "8888:8888"
+      - "8090:8090"
       - "3443:3443"
       - "2019:2019" # Caddy Admin API
     volumes:

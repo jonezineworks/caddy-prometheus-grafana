@@ -23,3 +23,5 @@ URL: http://prometheus:9090.
 Visualize metrics:
 
 Create dashboards in Grafana to visualize Caddy metrics (e.g., HTTP requests, response durations, etc.).
+
+add grafana dashboards to visualize caddy data
