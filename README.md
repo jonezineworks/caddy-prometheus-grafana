@@ -1,14 +1,16 @@
 # caddy-prometheus-grafana
 
 Instructions
-Set up the environment:
 
-Save docker-compose.yml, Caddyfile, and prometheus.yml in the same directory.
+Change Configurations:
+
+Configure caddy proxy ports
+Configure Prometheus file to target caddy metrics
+
 Start the stack:
 
-bash
-Copiar código
 docker-compose up -d
+
 Access the services:
 
 Caddy: Accessible on port 8888 (proxying to 3443).
@@ -22,6 +24,4 @@ Add a new data source: Prometheus.
 URL: http://prometheus:9090.
 Visualize metrics:
 
-Create dashboards in Grafana to visualize Caddy metrics (e.g., HTTP requests, response durations, etc.).
-
-add grafana dashboards to visualize caddy data
+Import caddy dashboard from grafanaDashboards4caddy
